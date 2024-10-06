@@ -1,1 +1,1 @@
-SAMPLE PROJECT ONLY (not done yet)
+This project is for school purposes only (still in progress)
