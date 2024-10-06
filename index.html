@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="assets/img/landing.png" type="image/x-icon">
+<!-- Remix Icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"/>
+<!-- Swiper's Css -->
+<link href="./src/output.css" rel="stylesheet">
+
+    <title>Tailor Booking Management</title>
+    
+</head>
+
+<body>
+    <!-- Header -->
+     <header class="navbar bg-blue-950 fixed w-full top-0 left-0 z-50">
+     <nav class="container flex items-center justify-between h-16 sm:h-20">
+        <div class="font-Jost sm:text text-2xl">TailorBook. </div>
+        
+        <div id="nav-menu" class="absolute top-0 left-[-100%] min-h-[80vh] w-full 
+        bg-blue-950/80 backdrop-blur-sm flex items-center justify-center duration-300 overflow-hidden 
+        lg:static lg:min-h-fit lg:bg-transparent lg:w-auto">
+            
+        <ul class="flex flex-col items-center gap-8 lg:flex-row">
+                <li>
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                
+                <li>
+                    <a href="#about" class="nav-link">About Us</a>
+                </li>
+                
+                <li>
+                    <a href="#appointment" class="nav-link">Appointment</a>
+                </li>
+
+                <li>
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+                <div class="absolute bottom-0 -right-10 opacity-90 lg:hidden">
+                    <img src="assets/img/sw3.png" alt="sewingkit" class="w-32">
+                </div>
+                
+                <div class="absolute -top-5 left-5 opacity-90 lg:hidden">
+                    <img src="assets/img/sw2.png" alt="sewingkit" class="w-32">
+                </div>
+        </div>
+        
+
+        <div class="text-xl sm:text-3xl cursor-pointer z-50 lg:hidden">
+            <i class="ri-menu-4-line" id="borgerkasakin"></i>
+        </div>
+     </nav>
+    </header>
+</div>
+
+    <main>
+        <!--~~~~~~~~~~~~~~~ Home ~~~~~~~~~~~~~~~-->
+        <section id="home" class="relative">
+                <div class="container">
+                    <!-- blob -->
+                     <div class="w-64 h-64 bg-blue-600 rounded-full blur-3xl -z-10 opacity-40 absolute top-1/2 left-1/2
+                     transform -translate-x-1/3 -translate-y-1/2">
+                     </div>
+
+                     <!-- blob 2 -->
+                     <div class="w-64 h-64 bg-blue-600 rounded-full blur-3xl -z-10 opacity-40 absolute right-0 bottom-15">
+                     </div>
+
+                    <div class="flex flex-col items-center gap-5 lg:flex-row">
+                        <!-- content -->
+                        <div class="w-full space-y-5 lg:w-1/2">
+                            <h1>
+                                <span class="text-yellow-500">TailorBook.</span> your 
+                                Online <span class="text-yellow-500">Tailoring</span> Services
+                            </h1>
+                            <p class="text-slate-300 font-Jost">
+                                A one-stop solution for tailoring appointments and custom clothing management
+                            </p>
+
+                    <div class="flex flex-col gap-2 sm:flex-row md:gap-4 lg:pt-5 xl:pt-10">
+                        <button class="btn">
+                            <span>About us</span>
+                        </button>
+
+                        <button class="btn btn_outline">
+                            <span>Book an Appointment</span>
+                            <i class="ri-calendar-event-line"></i>
+                        </button>
+                    </div>
+
+
+                        <p class="text-base font-Jost text-slate-300">You will get 50% discount.
+                        </p>
+
+                        <div class="flex items-center gap-5 text-lg">
+                            <i class="ri-facebook-fill text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer"></i>
+                            <i class="ri-twitter-x-line text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer"></i>
+                        </div>
+                    </div>
+
+                    <div class="w-full relative lg:w-1/2">
+                        <img src="assets/img/remban2.png" alt="landingpg">
+
+                        <!-- shirt -->
+                         <div class="absolute -top-10 right-0 opacity-30 lg:block animate-movingY">
+                            <i class="ri-shirt-line text-6xl text-white"></i>
+                         </div>
+
+                         <!-- shirt2 -->
+                          <div class="absolute -top-5 right-55 opacity-30 animate-rotating xl:top-4">
+                            <i class="ri-t-shirt-2-line text-6xl text-white"></i>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--~~~~~~~~~~~~~~~ after ~~~~~~~~~~~~~~~-->
+        <div class="bg-white text-blue-900 py-20">
+            <div class="container w-full grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3xl xl:grid-cols-4">
+                <!-- card 1 -->
+                <div class="border border-blue-950 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5">
+                    <div class="flex items-center gap-5">
+                        <i class="ri-t-shirt-2-line text-3xl md:text-4xl xl:text-5xl"></i>
+                        <p class="md:text-lg font-bold">
+                            Quality <br>
+                            threads
+                        </p>
+                    </div>
+                    <p class="font-Jost">
+                        We use only the best quality threads to ensure that your clothes last longer and look great.
+                    </p>
+                </div>
+                <!-- card 2 -->
+                <div class="border border-blue-950 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5">
+                    <div class="flex items-center gap-5">
+                        <i class="ri-t-shirt-2-line text-3xl md:text-4xl xl:text-5xl"></i>
+                        <p class="md:text-lg font-bold">
+                            Quality <br>
+                            threads
+                        </p>
+                    </div>
+                    <p class="font-Jost">
+                        We use only the best quality threads to ensure that your clothes last longer and look great.
+                    </p>
+                </div>
+                <!-- card 3 -->
+                <div class="border border-blue-950 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5">
+                    <div class="flex items-center gap-5">
+                        <i class="ri-t-shirt-2-line text-3xl md:text-4xl xl:text-5xl"></i>
+                        <p class="md:text-lg font-bold">
+                            Quality <br>
+                            threads
+                        </p>
+                    </div>
+                    <p class="font-Jost">
+                        We use only the best quality threads to ensure that your clothes last longer and look great.
+                    </p>
+                </div>
+                <!-- card 4 -->
+                <div class="border border-blue-950 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5">
+                    <div class="flex items-center gap-5">
+                        <i class="ri-t-shirt-2-line text-3xl md:text-4xl xl:text-5xl"></i>
+                        <p class="md:text-lg font-bold">
+                            Quality <br>
+                            threads
+                        </p>
+                    </div>
+                    <p class="font-Jost">
+                        We use only the best quality threads to ensure that your clothes last longer and look great.
+                    </p>
+                </div>
+            </div>
+        </div>
+            
+
+        <!--~~~~~~~~~~~~~~~ About us ~~~~~~~~~~~~~~~-->
+        <section id="about" class="relative overflow-hidden">
+            <div class="absolute -top-11 -right-12 opacity-50">
+                <img src="assets/img/blue.png" alt="threadimg" class="w-40 md:w-52 xl:64">
+            </div>
+
+            <div class="flex flex-col items-center gap-3 text-center mb-10 md:mb-20">
+                <h2 class="title">About us</h2>
+                <p class="max-w-2xl text-slate-300 font-Jost">Certainly providing you with maximum level of comfort & confidence in every service!</p>
+            </div>
+
+            <div class="container space-y-10 xl:space-y-0">
+                <!-- item 1 -->
+                 <div class="flex flex-col items-center lg:flex-row gap-5">
+                    <!-- image 1 -->
+                     <div class="w-full lg:w-1/2">
+                        <img src="assets/img/remban.png" alt="ab1" class="w-full xl:w-2/3 mx-auto">
+                     </div>
+
+                     <!-- content -->
+                      <div class="w-full lg:w-1/2">
+                        <div class="space-y-5">
+                            <h3>
+                                Online <span class="text-yellow-500">Tailoring</span>
+                                 <br>Services
+                            </h3>
+                            <p class="text-slate-300 font-Jost">Our goal is to change the status of the services that offer tailoring businesses and make such a platform easy to use, efficient, and convenient for booking and managing.</p>
+                        </div>
+                      </div>
+                 </div>
+            </div>
+        </section>
+
+
+        <!--~~~~~~~~~~~~~~~ Appointment ~~~~~~~~~~~~~~~-->
+        <section id="appointment">
+            <div class="flex flex-col items-center gap-3 text-center mb-40 md:mb-28">
+                <h2 class="title">Appointment</h2>
+                <p class="max-w-2xl text-slate-300 font-Jost">We do all the tailor services</p>
+            </div>
+
+            
+           
+        </section>
+
+
+        <!--~~~~~~~~~~~~~~~ Services ~~~~~~~~~~~~~~~-->
+        <section id="services">
+            <div class="flex flex-col items-center gap-3 text-center mb-40 md:mb-28">
+                <h2 class="title">Services</h2>
+                <p class="max-w-2xl text-slate-300 font-Jost">We do all the tailor services</p>
+            </div>
+
+        </section>
+
+        <!--~~~~~~~~~~~~~~~ Contact ~~~~~~~~~~~~~~~-->
+        <section id="contact">
+
+            <section id="contact">
+            <div class="flex flex-col items-center gap-3 text-center mb-40 md:mb-28">
+                <h2 class="title">Contact</h2>
+                <p class="max-w-2xl text-slate-300 font-Jost">We do all the tailor services</p>
+            </div>
+
+        </section>
+
+
+        </section>
+    </main>
+
+    <!--~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~-->
+    <footer>
+        <!-- newsletter -->
+        
+        <!-- social icon -->
+
+        <!-- content -->
+
+        <!-- copyright -->
+
+        <!-- floral image -->
+    </footer>
+
+    <!--~~~~~~~~~~~~~~~ Scroll Up ~~~~~~~~~~~~~~~-->
+
+    <!--~~~~~~~~~~~~~~~ Swiper JS ~~~~~~~~~~~~~~~-->
+
+    <!--~~~~~~~~~~ SCROLLREVEAL ~~~~~~~~~~-->
+
+    <!--~~~~~~~~~~ mainjs ~~~~~~~~~~-->
+    <script src="main.js"></script>
+    <!--~~~~~~~~~~ datetimepicker ~~~~~~~~~~-->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+
+</body>
+</html>
